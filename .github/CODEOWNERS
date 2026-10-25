@@ -1,0 +1,15 @@
+# Definición de ownership para evitar conflictos por módulos
+# Si un equipo modifica un módulo concreto, el dueño es ese equipo.
+
+src/modules/Auth/ @equipo-1
+src/modules/Traffic/ @equipo-2
+src/modules/Alerts/ @equipo-3
+src/modules/Devices/ @equipo-4
+src/modules/GeoIP/ @equipo-5
+src/modules/Logs/ @equipo-6
+
+# Reglas globales
+*.md @admin
+src/App.jsx @admin
+src/main.jsx @admin
+src/index.css @admin
